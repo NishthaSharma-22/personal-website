@@ -56,7 +56,7 @@ const projects = [
     github: "https://github.com/NishthaSharma-22/nextjs-website",
     url: "https://nextjs-website-xone-git-main-nishthasharma22s-projects.vercel.app/",
     description: "My personal website as a webOS!",
-    gradient: "from-teal-100 via-teal-200 to-teal-300",
+    gradient: "from-teal-100 via-teal-200/10 to-teal-200/30",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const projects = [
     url: "",
     description:
       "A compact, custom-built PCB timer designed for precise time tracking.",
-    gradient: "from-orange-100 via-orange-200 to-orange-300",
+    gradient: "from-transparent via-orange-200/10 to-orange-300/30",
   },
 ];
 

@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg">
+      <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg text-lg">
         <div className="flex justify-between items-center p-3 m-2 font-medium">
           <div className="flex gap-x-15 items-center">
             <Link href="/">
               <Image src="next.svg" alt="" width={70} height={70} />
             </Link>
-            <ul className="flex gap-x-3">
+            <ul className="flex gap-x-10">
               <li>
                 <a href="/projects">~/projects</a>
               </li>
