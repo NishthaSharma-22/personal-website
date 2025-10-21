@@ -4,13 +4,13 @@ export default function Box({name, description, icon, github, url, gradient}) {
   return (
     <>
       <div
-        className={`flex flex-col justify-center items-center w-w-sm sm:max-w--md md:max-w-lg lg:max-w-xl w-full p-4 text-center rounded-2xl bg-gradient-to-r ${gradient}`}
+        className={`flex flex-col justify-center items-center w-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl w-full p-5 mb-15 text-center rounded-2xl bg-gradient-to-br ${gradient}`}
       >
-        <Image src={icon} alt={name} width={400} height={300} className="m-2 mb-5 shadow-xl rounded-sm"/>
+        <Image src={icon} alt={name} width={500} height={400} className="m-2 mb-5 shadow-xl rounded-sm"/>
         <div className="w-full mt-3 text-left">
           <div className="flex items-center justify-between">
-            <h1 className="text-lg sm:text-xl font-semibold">{name}</h1>
-            <div className="flex gap-x-2">
+            <h1 className="text-2xl font-semibold">{name}</h1>
+            <div className="flex gap-x-2 text-lg">
               {github && (
                 <a
                   href={github}

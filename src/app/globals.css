@@ -24,7 +24,19 @@ body {
   color: var(--foreground);
 }
 
-a {
+a.primary {
   color: inherit;
   color: rgb(0, 187, 255);
 }
+a.primary:hover {
+  color: rgb(166, 78, 243);
+}
+a.secondary {
+  color: inherit;
+  color: rgb(114, 9, 206);
+}
+
+a.secondary:hover{
+  opacity: 60%;
+}
+
