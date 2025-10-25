@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function About(){
     return (
-      <div>
+      <div className="flex flex-col justify-center w-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl w-full">
         <h1 className="font-semibold text-4xl">Nishtha Sharma.</h1>
         <p className="mt-8 text-xl font-normal">
           Hello world! I am Nishtha, a sophomore studying Math and Computer
@@ -9,10 +9,18 @@ export default function About(){
           art!
         </p>
         <p className="mt-3 text-xl font-normal">
-          Check out <a href="/projects" class="secondary">~/projects</a> or my Github (
-          <Link href="github.com/nishthasharma-22" className="bg-violet-100 text-violet-500">
+          Check out{" "}
+          <a href="/projects" class="secondary">
+            ~/projects
+          </a>{" "}
+          or my Github (
+          <Link
+            href="github.com/nishthasharma-22"
+            className="bg-violet-100 text-violet-500"
+          >
             @NishthaSharma-22
-          </Link>) to see more projects!
+          </Link>
+          ) to see more projects!
         </p>
       </div>
     );
